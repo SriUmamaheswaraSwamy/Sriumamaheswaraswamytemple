@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: darkcyan;
+    justify-content: space-between;
+    
+}
+
+
+#navbar h1  {
+    color: white;
+}
+
+#navbar h1 span {
+    color : yellow
+}
+
+#navbar ul  {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a  {
+    color: white;
+    padding : 0.7rem;
+    margin : 0 0.25 rem;
+    
+}
+
+
+#header {
+    background: #333 url('../images/Shivamain.JPG') no-repeat center center/cover;
+    height : 99.5vh
+} 
+
+#header div {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    
+}
+
+#header div h1 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.py-1  {
+    padding : 50px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding  : 0  2ren;
+    overflow: hidden;   
+
+
+}
+#poojalu {
+    /* background: #333 url('../images/shividol.jpg') no-repeat center center/cover;
+    height : 100vh */
+    background: #e0dede;
+}
+
+#poojalu h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+#poojalu .items {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  
+}
+
+#poojalu .item {
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    margin : 10px 50px 25px 60px;
+
+}
+
+
+#poojalu  .items .item i  {
+ padding: 1rem;
+background-color: greenyellow;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+
+
+#poojalu .items .item ul {
+    list-style: none;
+}
+
+
+.icon {
+    margin: 0px 20px 0px 180px;
+    
+}
+.head {
+/* letter-spacing: 0.08px; */
+border-bottom: 1px solid blue;
+    
+    }
+.function {
+    margin: 6px 0px 0px 0px;
+}
+
+.function li {
+    margin: 10px 0px 0px 0px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  .row {
+    display: flex;
+    flex-flow : row wrap;
+  }
+  
+  .column {
+    flex: 23.3%;
+    padding: 5px;
+  }
+
+
+
+ .fixed-footer{
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 20px;
+}
+.container{
+    width: 80%;
+    margin: 20px auto; /* Center the DIV horizontally */
+}
+
+
+.text-colour {
+    color: yellow   ;
+}
+
+.social {
+    color: #E1306C;
+    margin : 5px 
+}
+.fb {
+    color: #4267B2;
+    margin : 5px 
+
+}
+.social-icons {
+    margin: 10px 0px 10px 0px;
+}
